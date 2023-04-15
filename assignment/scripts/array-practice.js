@@ -31,10 +31,10 @@ console.log('--- 3. Accessing items in an array ---');
 console.log('First animal is', animalArray[0])
 
 // 3.a. TODO: Log the second animal in the array 
-console.log('First animal is', foodArray[0]);
+console.log('Second animal is', animalArray[1]);
 
 // 3.b. TODO: Log the last animal in the array using it's array index 
-console.log('Last food is', foodArray[2]);
+console.log('Last animal is', animalArray[2]);
 
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length, 
 //      instead of the exact index number of the last item
@@ -50,7 +50,7 @@ console.log('Added an animal to end,', animalArray);
 
 // 4.a. TODO: Add a new food at the end of your array & log the array
 foodArray.push('gnocchi');
-console.log('Added a food to end,', animalArray);
+console.log('Added a food to end,', foodArray);
 
 
 // Example: Remove the last animal by using Array.pop
